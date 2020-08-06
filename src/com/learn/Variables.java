@@ -36,6 +36,23 @@ public class Variables {
         System.out.println("My bank balance is £" + pi);
         System.out.println("My bank balance is £" + pid);
 
+        //smallest type of number
+        byte b = 127; //127 capacity or -127 capacity
+        System.out.println(b);
+
+        //short is larger than a byte but not as large as an int
+        short s = 156; //156 capacity, 2x byte
+        System.out.println(s);
+
+        //smaller subset of String
+        char a = 'a'; //uses single quotes
+        System.out.println(a);
+
+        //boolean is a type that can only hold 0 & 1.
+        //can be represented as true and false
+        boolean isFalse = false;
+        System.out.println(isFalse);
+
 
     }
 }
