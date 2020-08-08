@@ -15,6 +15,11 @@ public class ControlFlow {
         == --> comparison
         != --> not equal to
         !  --> negation
+        >  --> greater than
+        <  --> less than
+        >= --> greater than or equal to
+        <= --> less than or equal to
+
          */
 
         //if a is equal to b then we run a piece of code
@@ -35,5 +40,26 @@ public class ControlFlow {
         } else {
             System.out.println("Not True");
         }
+        if (a > b) {
+            System.out.println("Indeed");
+        } else {
+            System.out.println("Not True");
+        }
+        if (a < b) {
+            System.out.println("Indeed");
+        } else {
+            System.out.println("Not True");
+        }
+        if (a >= b) {
+            System.out.println("Indeed");
+        } else {
+            System.out.println("Not True");
+        }
+        if (a <= b) {
+            System.out.println("Indeed");
+        } else {
+            System.out.println("Not True");
+        }
+
     }
 }
