@@ -1,4 +1,4 @@
-package com.learn;
+package com.learn.basics;
 
 public class LearningMethods {
 
@@ -65,7 +65,7 @@ public class LearningMethods {
                 + " and I am " + age + " years old! "
                 + bio;
     }
-    
+
     public static void divideIntNumbers(double first, int second) {
         System.out.println("The result is " + first / second);
     }
