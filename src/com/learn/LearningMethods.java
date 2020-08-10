@@ -11,6 +11,11 @@ public class LearningMethods {
         int finalResult = returnAddNumbers(23, 23);
         System.out.println(finalResult);
         System.out.println(fullName("Adam", "Eve"));
+        System.out.println(divideNumbers(3, 4));
+        System.out.println(divideNumbers(3, 4) * 6);
+        String bio = showBio("George", "I was born in England.", 25);
+        System.out.println(bio);
+        divideIntNumbers(3, 5);
     }
 
     public static void showName() {
@@ -48,5 +53,20 @@ public class LearningMethods {
 
     public static String fullName(String firstName, String lastName) {
         return firstName + " " + lastName;
+    }
+
+    public static double divideNumbers(double firstNum, double secondNum) {
+        //concise return of data types
+        return (firstNum/secondNum);
+    }
+
+    public static String showBio(String name, String bio, int age) {
+        return "My name is " + name
+                + " and I am " + age + " years old! "
+                + bio;
+    }
+    
+    public static void divideIntNumbers(double first, int second) {
+        System.out.println("The result is " + first / second);
     }
 }
